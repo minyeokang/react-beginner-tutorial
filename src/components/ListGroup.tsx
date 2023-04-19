@@ -35,6 +35,12 @@ function ListGroup({ items, heading, onSelectedItem }: Props) {
 
 export default ListGroup;
 
+/** Props vs State
+ * 
+ * do not change props, its immutable. 
+ * state will re-render every time state has changed. 
+ */
+
 /** make component reusable by props
  *
  * you want to get same UI of list-group but the h1 & list item content has to be changed.
